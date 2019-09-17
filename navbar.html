@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>repl.it</title>
+
+    <style>
+      .navbar{
+        background-color: black;
+        width: 100%;
+        height: 64px;
+      }
+
+      .navbar a {
+        color: white;
+        font-size: 22px;
+        text-decoration: none;
+        padding:19px;
+        float:left;
+      }
+      .morelinks{
+          color: white;
+        font-size: 22px;
+        text-decoration: none;
+        padding:19px;
+      }
+      .navbar a:hover, .morelinks:hover{
+        background-color: #4287f5;
+      }
+
+      .dropdown:hover .dropdown-content{
+        display:block;
+        background-color: black;
+      }
+
+      .dropdown-content{
+        position: absolute;
+        display:none;
+        z-index:  1;
+      }
+
+      .dropdown{
+          background-color:black;
+          color: white;
+          float: left;
+          text-decoration: none;
+          font-size: 20px;
+      }
+      .dropdown-content a{
+          float: none;
+          display: block;
+          color: black;
+          background-color: #a0a1b0;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="https://www.minecraft.net">Minecraft</a>
+      <a href="https://www.google.com/finance">Stonks</a>
+      <a href="https://www.collegeboard.com">Scams</a>
+      <div class="dropdown">
+        <div class="morelinks">More Links</div>
+        <div class="dropdown-content">
+          <a href="https://www.awseducate.com">aws educate</a>
+          <a href="https://www.coolmath.com">Coolmath</a>
+        </div>
+      </div>  
+
+    </div>
+
+  </body>
+</html>
