@@ -3,6 +3,11 @@
                 background-color: black;
                 overflow: hidden;
                 padding: 0;
+                width: 100%;
+            background-image:-webkit-linear-gradient(blue, purple);
+            background-image:-moz-linear-gradient(blue, purple);
+            background-image:-o-linear-gradient(blue, purple);
+            background-image:linear-gradient(blue, purple);
             }
             .navbar a, .dropdown div{
                 text-decoration: none;
@@ -15,7 +20,10 @@
                 float: left;
             }
             .navbar li:hover{
-                background-color: pink;
+                  background-image:-webkit-linear-gradient(#eb8d09,#e0351b);
+            background-image:-moz-linear-gradient(#eb8d09,#e0351b);
+            background-image:-o-linear-gradient(#eb8d09,#e0351b);
+            background-image:linear-gradient(#eb8d09,#e0351b);
             }
             .dropdown-content{
                 list-style: none;
@@ -23,7 +31,10 @@
                 display: none;
                 position: absolute;
                 z-index: 1;
-                background-color: black;
+                background-image:-webkit-linear-gradient(blue, purple);
+            background-image:-moz-linear-gradient(blue, purple);
+            background-image:-o-linear-gradient(blue, purple);
+            background-image:linear-gradient(blue, purple);
             }
             .dropdown-content li{
                 float:none;
@@ -33,5 +44,8 @@
                 
             }
             .active{
-                background-color: pink;
+                background-image:-webkit-linear-gradient(#eb8d09,#e0351b);
+            background-image:-moz-linear-gradient(#eb8d09,#e0351b);
+            background-image:-o-linear-gradient(#eb8d09,#e0351b));
+            background-image:linear-gradient(#eb8d09,#e0351b);
             }
