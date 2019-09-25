@@ -41,7 +41,7 @@
             }
             .dropdown:hover .dropdown-content{
                 display: block;
-                
+
             }
             .active{
                 background-image:-webkit-linear-gradient(#eb8d09,#e0351b);
