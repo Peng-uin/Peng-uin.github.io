@@ -1,14 +1,14 @@
 .navbar{
                 list-style: none;
-                background-color: black;
                 overflow: hidden;
                 padding: 0;
                 width: 100%;
-                background-image:-webkit-linear-gradient(blue, purple);
-                background-image:-moz-linear-gradient(blue, purple);
-                background-image:-o-linear-gradient(blue, purple);
-                background-image:linear-gradient(blue, purple);
+                background-image:-webkit-linear-gradient(blue, purple, black);
+                background-image:-moz-linear-gradient(blue, purple, black);
+                background-image:-o-linear-gradient(blue, purple, black);
+                background-image:linear-gradient(blue, purple, black);
         }
+
             .navbar a, .dropdown div{
                 text-decoration: none;
                 color: white;
@@ -31,10 +31,10 @@
                 display: none;
                 position: absolute;
                 z-index: 1;
-                background-image:-webkit-linear-gradient(blue, purple);
-                background-image:-moz-linear-gradient(blue, purple);
-                background-image:-o-linear-gradient(blue, purple);
-                background-image:linear-gradient(blue, purple);
+                background-image:-webkit-linear-gradient(blue, purple, black);
+                background-image:-moz-linear-gradient(blue, purple, black);
+                background-image:-o-linear-gradient(blue, purple,black);
+                background-image:linear-gradient(blue, purple, black);
             }
             .dropdown-content li{
                 float:none;
@@ -54,12 +54,12 @@
             font-style: italic;
             width:100%;
             margin: 0 auto;
-            text-align: center;
+            text-align: left;
             color:#313131;
             font-size:45px;
             font-weight: bold;
             position: absolute;
-            -webkit-animation:colorchange 15s infinite alternate;
+            -webkit-animation:colorchange 35s infinite alternate;
          }
              @-webkit-keyframes colorchange {
       0% {
@@ -95,17 +95,3 @@
       100% {
         color: blue;
       }
-        .blend {
-          position:absolute
-          mix-blend-mode: soft-light
-      }
-         p {
-          position: absolute;
-      }
-        .images {
-            position:relative;
-
-      }
-        .body {
-            background-color: black
-        }
