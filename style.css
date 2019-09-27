@@ -50,7 +50,7 @@
             background-image:linear-gradient(#eb8d09,#e0351b));
             }
             .cool {
-            font-family: futura;
+             font-family:"Comic-Sans MS,", cursive, sans-serif;
             font-style: italic;
             width:100%;
             margin: 0 auto;
@@ -63,35 +63,42 @@
          }
              @-webkit-keyframes colorchange {
       0% {
-        color: blue;
+        color: rgb(60, 235, 60);
       }
       10% {
-        color: indigo;
+        color: yellow;
       }
       20% {
-        color: purple;
+        color: yellow;
       }
       30% {
-        color: violet;
+        color: orange;
       }
       40% {
-        color: pink;
+        color: orange;
       }
       50% {
         color: red;
       }
       60% {
-        color: orange;
+        color: red;
       }
       70% {
-        color: yellow;
+        color: pink;
       }
       80% {
-        color: green;
+        color: aqua;
       }
       90% {
-        color: #aqua;
+        color: aqua;
       }
       100% {
-        color: blue;
+        color: rgb(47, 184, 47);
+      }
+      .image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
       }
