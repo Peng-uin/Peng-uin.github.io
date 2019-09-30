@@ -49,6 +49,9 @@
             background-image:-o-linear-gradient(#eb8d09,#e0351b));
             background-image:linear-gradient(#eb8d09,#e0351b));
             }
+            .li{
+                 font-family:"Comic-Sans MS,", cursive, sans-serif;
+            }
             .cool {
              font-family:"Comic-Sans MS,", cursive, sans-serif;
             font-style: italic;
@@ -94,11 +97,4 @@
       }
       100% {
         color: rgb(47, 184, 47);
-      }
-      .image {
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        min-height: 100%;
       }
