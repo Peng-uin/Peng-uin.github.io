@@ -75,9 +75,9 @@
                 color: white;
             }
             .body {
-              background: url("https://data.whicdn.com/images/82335972/original.jpg");
+              background: url("https://mcdn.wallpapersafari.com/medium/3/50/K1aUES.jpg");
               background-size: cover;
-              repeat: none;
+              background-repeat: no-repeat;
             }
             .back {
                 color: white;
