@@ -67,3 +67,22 @@
             .sans {
                 font-family:"Comic-Sans MS,", cursive, sans-serif;
             }
+            .headers {
+                text-decoration: underline;
+                font-weight: bold;
+                font-family:"Comic-Sans MS,", cursive, sans-serif;
+                font-size: 18px;
+                color: white;
+            }
+            .body {
+              background: url("https://data.whicdn.com/images/82335972/original.jpg");
+              background-size: cover;
+              repeat: none;
+            }
+            .back {
+                color: white;
+                font-family:"Comic-Sans MS,", cursive, sans-serif;
+            }
+            .text {
+                color: white;
+            }
