@@ -73,6 +73,11 @@
               background-size: cover;
               background-repeat: no-repeat;
             }
+            .two {
+            background: url("https://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-1.jpg");
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
             .back {
                 color: white;
                 font-family:"Comic-Sans MS,", cursive, sans-serif;
@@ -93,3 +98,8 @@
             font-size:12px;
             font-weight: bold;
             position: absolute;
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
