@@ -53,7 +53,7 @@
             width:100%;
             margin: 0 auto;
             text-align: left;
-            color: #03fc56;
+            color:white;
             font-size:45px;
             font-weight: bold;
             position: absolute;
@@ -80,3 +80,16 @@
             .text {
                 color: white;
             }
+            table, th, td {
+                 border: 1px solid black;
+            }
+            .paragraph {
+            font-family:"Comic-Sans MS,", cursive, sans-serif;
+            font-style: italic;
+            width:100%;
+            margin: 0 auto;
+            text-align: left;
+            color: white;
+            font-size:12px;
+            font-weight: bold;
+            position: absolute;
