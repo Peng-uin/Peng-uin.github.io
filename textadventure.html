@@ -390,7 +390,7 @@
     }
     function gun(){
         pic.src = "images/swat.jpg";
-        ptext1.innerHTML = "Unfortunately you try to buy the gun off of Craigslist. An hour later.there are some people in blue Halloween costumes suddenly play role play with you while telling you to get in the car.";
+        ptext1.innerHTML = "Unfortunately you try to buy the gun off of Craigslist. An hour later.there are some people in black Halloween costumes suddenly play role play with you while telling you to get in the car.";
         ptext2.innerHTML= "";
         ptext3.innerHTML = "END";
         ptext4.innerHTML = "";
@@ -428,9 +428,9 @@
         b5.style.display = "none";
     }
     function punchone(){
-        pic.src = "images/bankvault.jpg";
+        pic.src = "images/vaultdoor.jpg";
         ptext1.innerHTML = "So, you punch, but it won’t budge.";
-        ptext2.innerHTML= "";
+        ptext2.innerHTML= "Try again?";
         ptext3.innerHTML = "";
         ptext4.innerHTML = "";
         b1.innerHTML = "Yes";
@@ -455,7 +455,7 @@
         b5.style.display = "none";
     }
     function notPunch(){
-        pic.src = "images/swattt.jpg";
+        pic.src = "images/swatt.jpg";
         ptext1.innerHTML = "Sensible. Unfortunately, a camera spotted you. A nice black Hummer that says SWAT on it rushes towards you. You, having an iq of broken toaster just assumes that the day of the killer moth has arrived, and go on about your business.";
         ptext2.innerHTML= "";
         ptext3.innerHTML = "END";
@@ -481,7 +481,7 @@
         b5.style.display = "none";
     }
     function tackle(){
-        pic.src = "images/headbutt.jpg";
+        pic.src = "images/wall.jpg";
         ptext1.innerHTML = "Congratulations. You actually managed to improve your iq. Surely headbutting a solid wall at full speed will work. Right? After all, Granny May said that I could become anything if I tried hard enough. Still waiting on the day that I become a unicorn. ";
         ptext2.innerHTML= "";
         ptext3.innerHTML = "END";
@@ -533,7 +533,7 @@
         b5.style.display = "none";
     }
     function airduct(){
-        pic.src = "images/question.jpg";
+        pic.src = "images/jump.png";
         ptext1.innerHTML = "Due to your intelligence, you end up jumping. You miss by 5 feet. And hit your head on the table. That confuses the black ski mask men. They carry on, and you follow them. ";
         ptext2.innerHTML= "";
         ptext3.innerHTML = "";
@@ -560,7 +560,7 @@
         b5.style.display = "none";
     }
     function airduct2(){
-        pic.src = "images.swatt.jpg";
+        pic.src = "images/office.jpg";
         ptext1.innerHTML = "Stanley runs into the wrong room, and gets lost. Three hours later, he emerges from the room, and police are waiting for him.";
         ptext2.innerHTML= "";
         ptext3.innerHTML = "END";
@@ -881,7 +881,25 @@
                     state="intro";
                 }
             }
+             else if(state=="airduct2"){
+                if(button==1){
+                    intro();
+                    state="intro";
+                }
+            }
+             else if(state=="roit"){
+                if(button==1){
+                    intro();
+                    state="intro";
+                }
+            }
             else if(state=="entranceBack"){
+                if(button==1){
+                    intro();
+                    state="intro";
+                }
+            }
+            else if(state=="straet"){
                 if(button==1){
                     intro();
                     state="intro";
@@ -922,6 +940,12 @@
                 
                 }
             }
+            else if(state=="airduct1"){
+                if(button==1){
+                    intro();
+                    state="intro";
+                }
+            }
             else if(state=="punchtwo"){
                 if(button==1){
                     intro();
@@ -929,6 +953,12 @@
                 }
             }
             else if(state=="notPunch"){
+                if(button==1){
+                    intro();
+                    state="intro";
+                }
+            }
+            else if(state=="dance"){
                 if(button==1){
                     intro();
                     state="intro";
